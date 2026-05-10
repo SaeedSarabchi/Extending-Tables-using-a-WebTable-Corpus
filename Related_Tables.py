@@ -12,7 +12,7 @@ from CommonUtilities import *
 #This Function Maps a query to Knowledge Graph's topic Unique ID.
 #If No Matching was found in the Knowledge Base, then its Original Name is used.
 def GetKnowledgeGraphID(query):
-    api_key = "AIzaSyAZdDvUzLXth6BP08K7vNWCs7VtVvEucqI"
+    api_key = "***"
     
     
     service_url = 'https://kgsearch.googleapis.com/v1/entities:search'
